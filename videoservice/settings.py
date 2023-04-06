@@ -15,7 +15,7 @@ import os
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
-CSRF_TRUSTED_ORIGINS = ['https://online-learning-platform-production.up.railway.app']
+
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/2.2/howto/deployment/checklist/
 
@@ -25,7 +25,8 @@ SECRET_KEY = '0e44#p=0jk-&f530#1gb2cn@s0mbes1&)=1e7jn%s6jwo9=&-9'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["*"]
+ALLOWED_HOSTS = ["https://web-production-ec665.up.railway.app/"]
+CSRF_TRUSTED_ORIGINS = ['https://online-learning-platform-production.up.railway.app']
 
 # Application definition
 
