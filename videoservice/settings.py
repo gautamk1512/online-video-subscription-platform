@@ -25,7 +25,7 @@ SECRET_KEY = '0e44#p=0jk-&f530#1gb2cn@s0mbes1&)=1e7jn%s6jwo9=&-9'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["https://web-production-ec665.up.railway.app/"]
+ALLOWED_HOSTS = ["*"]
 CSRF_TRUSTED_ORIGINS = ['https://online-learning-platform-production.up.railway.app']
 
 # Application definition
