@@ -6,7 +6,7 @@ charset-normalizer==2.0.12
 click==8.0.1
 colorama==0.4.6
 distlib==0.3.6
-Django==4.1.7
+Django==4.1.1
 filelock==3.10.0
 Flask==2.0.1
 Flask-Cors==3.0.10
